@@ -2,6 +2,8 @@ import os
 import fnmatch
 import logging
 import time
+import difflib
+import re
 from openai import OpenAI
 from termcolor import colored
 from prompt_toolkit import prompt
@@ -11,8 +13,6 @@ from rich import print as rprint
 from rich.markdown import Markdown
 from rich.console import Console
 from rich.table import Table
-import difflib
-import re
 
 
 MODEL = "o1-mini"

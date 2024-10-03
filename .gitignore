@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+env/
+.venv/
+.env
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# Logs and Databases
+*.log
+*.sqlite3
+
+# Secrets
+.env
+secrets/
+
+# Node.js
+node_modules/
